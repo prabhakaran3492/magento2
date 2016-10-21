@@ -1,0 +1,12 @@
+@tomrain-icons-admin__font-name-path: '@{baseDir}fonts/Testa/app';
+@tomrain-icons-admin__font-name : 'App';
+.lib-font-face(
+@family-name:@tomrain-icons-admin__font-name,
+@font-path: @tomrain-icons-admin__font-name-path,
+@font-weight: normal,
+@font-style: normal
+);
+.admin__menu .item-app.parent.level-0 > a:before {
+  font-family: @tomrain-icons-admin__font-name;
+  content: "\e900";
+}

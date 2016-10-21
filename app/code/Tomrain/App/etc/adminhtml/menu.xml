@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Tomrain_App::app" 
+        	title="App Customizer" 
+        	translate="title" 
+        	module="Tomrain_App" 
+        	sortOrder="80" 
+        	resource="Tomrain_App::app"/>
+
+		<add id="Tomrain_App::app_tools" 
+			title="Clipart" 
+			module="Tomrain_App" 
+			sortOrder="50" 
+			parent="Tomrain_App::app" 
+
+			resource="Tomrain_App::app_tools"/>
+
+		<add id="Tomrain_App::app_tools_list" 
+			title="Clipart_List" 
+			translate="title" 
+			module="Tomrain_App" 
+			sortOrder="60" 
+			parent="Tomrain_App::app_tools" 
+			action="app/blog"
+			resource="Tomrain_App::app_tools_list"/>
+
+		<add id="Tomrain_App::app_image" 
+			title="Clipart Image" 
+			translate="title" 
+			module="Tomrain_App" 
+			sortOrder="10" 
+			parent="Tomrain_App::app_tools" 
+			resource="Tomrain_App::app_image"/>
+
+		<add id="Tomrain_App::app_tool" 
+			title="Clipart_Manage" 
+			translate="title" 
+			module="Tomrain_App" 
+			sortOrder="70" 
+			parent="Tomrain_App::app" 
+			resource="Tomrain_App::app_tool"/>
+
+		<add id="Tomrain_App::app_tool_list" 
+			title="Clipart_size"  
+			translate="title" 
+			module="Tomrain_App" 
+			sortOrder="80" 
+			parent="Tomrain_App::app_tool" 
+			resource="Tomrain_App::app_tool_list"/>
+        
+    </menu>
+</config>

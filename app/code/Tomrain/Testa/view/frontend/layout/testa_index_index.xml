@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceContainer name="content">
+			<block class="Tomrain\Testa\Block\Hello" name="testa_index" 
+				template = "Tomrain_Testa::test.phtml" />
+		</referenceContainer>                                                
+</page>

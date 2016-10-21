@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Tomrain_Testa::testa" 
+        	title="App Customizer" 
+        	translate="title" 
+        	module="Tomrain_Testa" 
+        	sortOrder="80" 
+        	resource="Tomrain_Testa::testa"/>
+
+		<add id="Tomrain_Testa::testa_tools" 
+			title="Clipart" 
+			module="Tomrain_Testa" 
+			sortOrder="50" 
+			parent="Tomrain_Testa::testa" 
+			resource="Tomrain_Testa::testa_tools"/>
+
+		<add id="Tomrain_Testa::testa_tools_list" 
+			title="Clipart_List" 
+			translate="title" 
+			module="Tomrain_Testa" 
+			sortOrder="60" 
+			parent="Tomrain_Testa::testa_tools" 
+			resource="Tomrain_Testa::testa_tools_list"/>
+
+		<add id="Tomrain_Testa::testa_image" 
+			title="Clipart Image" 
+			translate="title" 
+			module="Tomrain_Testa" 
+			sortOrder="10" 
+			parent="Tomrain_Testa::testa_tools" 
+			resource="Tomrain_Testa::testa_image"/>
+
+		<add id="Tomrain_Testa::testa_tool" 
+			title="Clipart_Manage" 
+			translate="title" 
+			module="Tomrain_Testa" 
+			sortOrder="70" 
+			parent="Tomrain_Testa::testa" 
+			resource="Tomrain_Testa::testa_tool"/>
+
+		<add id="Tomrain_Testa::testa_tool_list" 
+			title="Clipart_size"  
+			translate="title" 
+			module="Tomrain_Testa" 
+			sortOrder="80" 
+			parent="Tomrain_Testa::testa_tool" 
+			resource="Tomrain_Testa::testa_tool_list"/>
+        
+    </menu>
+</config>
